@@ -1,4 +1,4 @@
-Srapple
+Scrapple
 =========
 
 Scrapple finds scrabble words that adhere to a pattern and sorts them by
