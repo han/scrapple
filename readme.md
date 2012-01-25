@@ -12,17 +12,17 @@ ruby scrapple.rb
 
 * note: yes, it's a command-line tool
 * note 2: Scrapple needs Ruby 1.9+
-* note 3: Currently only supports Dutch. Although ne migth wonder why this readme is in
-  English then.
+* note 3: Currently only supports Dutch. No, there is not a good reason for this readme to be in
+  English.
 
-When scrapple asks for letters, type the 7 (or fewer) letters on your
-tiles. Type a ? for the blank tile.
+When scrapple asks for letters, type the seven (or fewer) letters on your
+tiles. Type a '?' for the blank tile.
 
 The pattern works as follows:
 
-type a . (dot) for each tile position scrapple should fill on the board. Lower
+type a '.' (dot) for each tile position scrapple should fill on the board. Lower
 case alphabetic characters represent letters already on the board. A '2'
-or '3' denotes an empty tile position with 2 or 3 times word value. A
+or a '3' denotes an empty tile position with 2 or 3 times word value. A
 capital 'D' or 'T' stands for a Double or Triple letter value. 
 
 Scrapple will try to form the longest word possible in a word pattern.
@@ -47,7 +47,7 @@ Examples
   followed by two more tiles, the last of which is a double letter value,
   and ending in an 'n' again. The word value is tripled, since the first
   tile holds a '3'
-* .k*r* - is illegal. A '*' should be at the beginning or end of a
+* .k\*r\* - is illegal. A '*' should be at the beginning or end of a
   pattern.
 
 Meta
